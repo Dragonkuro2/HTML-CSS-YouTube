@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 2px solid rgb(236, 236, 236);
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-side {
+    width: 300px;
+    display: flex;
+    flex: row;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.menu-logo {
+    width: 26px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+.menu-logo:hover, .youtube-logo:hover,
+.user-img {
+    cursor: pointer;
+}
+
+.middle-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    /* background-color: green; */
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    height: 34px;
+    border: 1px solid rgb(203, 203, 203);
+    padding-left: 15px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.06);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 0;
+    max-width: 500px;
+}
+
+.search-bar::placeholder {
+    color: rgb(163, 163, 163);
+    font-size: 16px;
+}
+
+.search-icon {
+    width: 20px;
+}
+
+.search-button {
+    width: 60px;
+    height: 38px;
+    border: 1px solid rgb(203, 203, 203);
+    margin-left: -1px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: rgb(236, 236, 236);
+}
+
+.search-text {
+    position: relative;
+}
+
+.search-text p {
+    position: absolute;
+    margin-top: 10px;
+    background-color: gray;
+    font-size: 12px;
+    padding: 6px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4;
+}
+
+.search-button:hover + .search-text p {
+    opacity: 1;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.voice-icon {
+    height: 20px;
+    border-radius: 50%;
+}
+
+.voice-button {
+    width: 38px;
+    height: 38px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.right-side {
+    width: 180px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon {
+    height: 26px;
+}
+
+.user-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.notifications-count {
+    position: relative;
+}
+
+.notifications-count p {
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 10px;
+    color: white;
+    padding: 2px;
+}
