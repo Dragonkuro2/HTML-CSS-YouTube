@@ -1,6 +1,6 @@
 # HTML-CSS-YouTube
 
-![Demo](./images/demo.gif)
+![Demo](./images/demo.png)
 In this project, I'm practicing my skills in HTML and CSS by creating a simple version of the YouTube.com interface.
 
 ## Project Structure
