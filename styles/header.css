@@ -75,6 +75,7 @@
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     background-color: rgb(236, 236, 236);
+    cursor: pointer;
 }
 
 .search-text {
@@ -109,6 +110,7 @@
     border-radius: 50%;
     border: none;
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
 .right-side {
